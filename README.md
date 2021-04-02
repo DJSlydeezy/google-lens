@@ -11,11 +11,33 @@ Author
 
 Zuhkov <zuhkov@gmail.com>
 
+```
+git clone git@github.com:Zuhkov/docker-containers.git
+cd guacamole
+docker build -t zuhkov/guacamole .
+```
+
+You can also obtain it via:  
+
+```
+docker pull zuhkov/guacamole
+```
+
 ---
-Building
+Running
+===
+Guacamole
+====
+
+Dockerfile for Guacamole 0.9.5 with embedded MariaDB (MySQL) Authentication
+
+Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP.
+
+---
+Author
 ===
 
-Build from docker file:
+Zuhkov <zuhkov@gmail.com>
 
 ```
 git clone git@github.com:Zuhkov/docker-containers.git
@@ -48,3 +70,5 @@ Credits
 Guacamole is an open source project and is copyright Glyptodon LLC
 
 This docker image is built upon the baseimage made by phusion and forked from hall/guacamole
+
+Create your guacamole config direc
